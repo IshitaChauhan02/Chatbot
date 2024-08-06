@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to reach out if you need anything else."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "product_search",
+      "patterns": [
+        "I'm looking for a product",
+        "I want to buy something",
+        "Can you help me find a product?",
+        "Show me the products",
+        "Do you have any [product]?"
+      ],
+      "responses": [
+        "Sure! What product are you looking for?",
+        "Please specify the product you're interested in.",
+        "I can help with that. What exactly are you looking for?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Check order status",
+        "Order tracking",
+        "Can you tell me the status of my order?",
+        "Track my order"
+      ],
+      "responses": [
+        "Please provide your order ID.",
+        "Sure, can you give me your order number?",
+        "I can help with that. What's your order ID?"
+      ]
+    },
+    {
+      "tag": "returns_policy",
+      "patterns": [
+        "What is your return policy?",
+        "How can I return a product?",
+        "Can I return an item?",
+        "Return policy",
+        "Product returns"
+      ],
+      "responses": [
+        "You can return any product within 30 days of purchase. Would you like to initiate a return?",
+        "Our return policy allows returns within 30 days. Would you like to know more?",
+        "Sure, you can return products within 30 days. Do you need help with a return?"
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay?",
+        "Payment options",
+        "Available payment methods",
+        "Payment methods"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, UPI, and bank transfers.",
+        "You can pay using credit/debit cards, UPI, or bank transfers.",
+        "Our available payment methods include credit cards, debit cards, UPI, and bank transfers."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are the shipping options?",
+        "Do you offer free shipping?",
+        "Shipping information",
+        "Tell me about your shipping options",
+        "Shipping details"
+      ],
+      "responses": [
+        "We offer standard and express shipping. Free shipping is available for orders over $50.",
+        "You can choose between standard and express shipping. Free shipping is provided for orders above $50.",
+        "Our shipping options include standard and express delivery. Orders over $50 qualify for free shipping."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "I need help with something else",
+        "Can I talk to a human?",
+        "I have an issue",
+        "Contact support",
+        "Customer service"
+      ],
+      "responses": [
+        "Sure, let me connect you with our support team.",
+        "I will forward your request to our customer service team. Please hold on.",
+        "Our support team will assist you shortly. Please wait a moment."
+      ]
+    }
+  ]
+}
